@@ -1,78 +1,69 @@
 * {
     box-sizing: border-box;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
 .all {
     background-image: url("../images/amethyst.jpg");
     height: 100%;
+    background-size: cover;
 }
 
 header {
     padding: 20px;
     margin-bottom: 20px;
-    /* background-color: #5900ff; */
     color: white;
     font-size: 24px;
-    /* opacity: .5 */
     width: 960px;
     margin: auto;
+    
 }
 
 
 #instructions {
     padding: 20px;
     margin-bottom: 20px;
-    /* background-color: #e94ab4; */
-    /* opacity: .5; */
+    background-color: #af2682;
+    opacity: .9;  
     margin: auto;
     width: 960px;
     color: white;
 }
 
-#random-number {
-    float: left;
-    width: 33.3%;
+.target-number {
     background-color: #0ccef0;
     height: 100px;
     padding: 35px; 
+    margin:  auto;
+    width: 960px;
 }
 
 #win-counter {
-    float: left;
-    width: 33.3%;
+    width: 319px;
     background-color: #9e1212;
-    height: 100px;
+    height: 90px;
     padding: 35px; 
-}
-
-#loss-counter {
-    float: left;
-    width: 33.3%;
-    background-color: #9e1212;
-    height: 100px;
-    padding: 35px; 
-}
-
-.button {
-    float: left;
-    width: 25%;
-    margin-bottom: 20px;
-    padding: 20px;
+    display: inline-block;
 }
 
 #total-score {
-    padding: 20px;
-    margin-bottom: 20px;
     background-color: #5900ff;
+    width: 320px;
+    height: 90px;
+    padding: 35px;
+    display: inline-block;
+
 }
 
-/* .images-holder {
-    width: 100px;
-    height: 100px;
-} */
+#loss-counter {
+    width: 319px;
+    background-color: #9e1212;
+    height: 90px;
+    padding: 35px; 
+    display: inline-block;
+}
 
 .images {
     width: 100px;
