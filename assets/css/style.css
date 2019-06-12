@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 
 }
 
@@ -15,10 +15,10 @@ header {
     padding: 20px;
     margin-bottom: 20px;
     color: white;
-    font-size: 24px;
+    font-size: 42px;
+    font-display: bold;
     width: 960px;
     margin: auto;
-    
 }
 
 
@@ -34,39 +34,54 @@ header {
 
 .target-number {
     background-color: #0ccef0;
+    opacity: .9; 
     height: 100px;
-    padding: 35px; 
+    padding: 20px; 
     margin:  auto;
     width: 960px;
+    color: white;
+    font-size: 42px;
 }
 
 #win-counter {
-    width: 319px;
+    width: 317px;
     background-color: #9e1212;
     height: 90px;
     padding: 35px; 
     display: inline-block;
+    opacity: .9; 
+    color: white;
+    font-size: 24px;
 }
 
 #total-score {
     background-color: #5900ff;
-    width: 320px;
+    width: 317px;
     height: 90px;
     padding: 35px;
     display: inline-block;
+    color: white;
+    opacity: .9; 
+    font-size: 24px;
 
 }
 
 #loss-counter {
-    width: 319px;
+    width: 317px;
     background-color: #9e1212;
     height: 90px;
     padding: 35px; 
     display: inline-block;
+    color: white;
+    opacity: .9; 
+    font-size: 24px;
 }
 
 .images {
-    width: 100px;
-    height: 100px;
+    width: 240px;
+    height: 240px;
+    display: inline-block;
+    background-color: white;
+    opacity: .9;
 }
 
