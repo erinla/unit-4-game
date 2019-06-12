@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+.all {
+    background-image: url("../images/amethyst.jpg");
+    height: 100%;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 20px;
+    /* background-color: #5900ff; */
+    color: white;
+    font-size: 24px;
+    /* opacity: .5 */
+    width: 960px;
+    margin: auto;
+}
+
+
+#instructions {
+    padding: 20px;
+    margin-bottom: 20px;
+    /* background-color: #e94ab4; */
+    /* opacity: .5; */
+    margin: auto;
+    width: 960px;
+    color: white;
+}
+
+#random-number {
+    float: left;
+    width: 33.3%;
+    background-color: #0ccef0;
+    height: 100px;
+    padding: 35px; 
+}
+
+#win-counter {
+    float: left;
+    width: 33.3%;
+    background-color: #9e1212;
+    height: 100px;
+    padding: 35px; 
+}
+
+#loss-counter {
+    float: left;
+    width: 33.3%;
+    background-color: #9e1212;
+    height: 100px;
+    padding: 35px; 
+}
+
+.button {
+    float: left;
+    width: 25%;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#total-score {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #5900ff;
+}
+
+/* .images-holder {
+    width: 100px;
+    height: 100px;
+} */
+
+.images {
+    width: 100px;
+    height: 100px;
+}
+
