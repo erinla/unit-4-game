@@ -53,7 +53,7 @@ $(document).ready(function () {
                 generateNumbers();
                 generateImages();
                 console.log("wins = " + wins);
-                $("#win-counter").text("Wins " + wins);
+                $("#win-counter").text("Wins: " + wins);
                 $(".target-number").text("Random Number: " + targetNumber);
 
             }
